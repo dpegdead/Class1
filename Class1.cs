@@ -1,17 +1,16 @@
-﻿using Facepunch;
-using Oxide.Core;
-using Oxide.Plugins;
+﻿using Oxide.Rust;
+using Facepunch;
+using Oxide;
 
-namespace HelloWorldRust
+namespace Oxide.Plugins
 {
-    [Info("Hello World Rust", "DPEG", "0.1")]
-    class TestingOfDPEG : RustPlugin
+    [Info("DPEG PLUGIN", "DPEG", "0.1")]
+    [Description("A Plugin Made By DPEG")]
+    class Plugin1 : RustPlugin
     {
-        void Init()
+        private void Init()
         {
-            Puts("Init!");
+            Puts("Initiated");
         }
-
-
     }
 }
