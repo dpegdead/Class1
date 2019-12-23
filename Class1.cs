@@ -1,5 +1,6 @@
 ﻿using Facepunch;
 using Oxide;
+using System;
 
 namespace Oxide.Plugins
 {
@@ -11,6 +12,24 @@ namespace Oxide.Plugins
         {
             Puts("Initiated");
             Puts("Welcome To Server DPEG");
+
+        }
+
+        private void Init()
+        {
+            permission.RegisterPermission("loottest.use", this);
+        }
+
+        [Command("loot test"), Permission("loottest.use")]
+        private void LootTestCommand(BasePlayer player, string command, string[] args)
+        {
+            player.Reply("Command Unavailable");
+        }
+
+        [Command("Ping")]
+        private void PingCommand(BasePlayer player, string command, string[] args)
+        {
+            player.Reply("Pong");
         }
     }
 }
