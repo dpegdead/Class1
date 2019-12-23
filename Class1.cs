@@ -12,11 +12,6 @@ namespace Oxide.Plugins
         {
             Puts("Initiated");
             Puts("Welcome To Server DPEG");
-
-        }
-
-        private void Init()
-        {
             permission.RegisterPermission("loottest.use", this);
         }
 
