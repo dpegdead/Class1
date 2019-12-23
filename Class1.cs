@@ -1,8 +1,14 @@
 ﻿using Facepunch;
+using Oxide.Rust;
+using Oxide.Core;
+using Oxide.References;
+using Oxide.Rust;
+using Oxide.Plugins;
+
 namespace HelloWorldRust
 {
     [Info("Hello World Rust", "DPEG", "0.1")]
-    public class HelloWorld : RustPlugin
+    class HelloWorld : RustPlugin
     {
         void Init()
         {
