@@ -1,5 +1,5 @@
 ﻿using Facepunch;
-namespace HelloWorldRust Oxide.Plugins
+namespace HelloWorldRust
 {
     [Info("Hello World Rust", "DPEG", "0.1")]
     public class HelloWorld : RustPlugin
