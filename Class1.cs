@@ -6,7 +6,7 @@ namespace Oxide.Plugins
 {
     [Info("DPEG PLUGIN", "DPEG", "0.1")]
     [Description("A Plugin Made By DPEG")]
-    class Plugin1 : RustPlugin
+    class Class1 : RustPlugin
     {
         private void Init()
         {
