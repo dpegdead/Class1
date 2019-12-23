@@ -10,6 +10,7 @@ namespace Oxide.Plugins
         private void Init()
         {
             Puts("Initiated");
+            Puts("Welcome To Server DPEG");
         }
     }
 }
