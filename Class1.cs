@@ -1,8 +1,5 @@
 ﻿using Facepunch;
-using Oxide.Rust;
 using Oxide.Core;
-using Oxide.References;
-using Oxide.Rust;
 using Oxide.Plugins;
 
 namespace HelloWorldRust
